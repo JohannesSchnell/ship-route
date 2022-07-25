@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: courier;
+}
+#myMap{
+  width: 800;
+  height: 500;
+}

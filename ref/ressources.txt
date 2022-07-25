@@ -1,0 +1,3 @@
+item, src
+ship_icon, https://www.svgrepo.com/svg/111867/ship
+arrow, https://svgsilh.com/de/image/40169.html

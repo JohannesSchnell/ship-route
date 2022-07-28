@@ -1,5 +1,5 @@
 //os map
-const map = L.map("mymap").setView([0, 0], 1);
+const map = L.map("myMap").setView([0, 0], 1);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: "© OpenStreetMap",
@@ -50,7 +50,7 @@ function addShip(n, features) {
       icon: shipIcon,
     });
     marker.addTo(map).on("click", function (e) {
-      map.setView(e.latlng);
+      map.setView(e.latlng, 13);
     });
     //c = [];
   }

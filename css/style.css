@@ -1,4 +1,4 @@
-body {
+/* body {
   padding: 0;
   margin: 0;
 }
@@ -8,4 +8,17 @@ html {
 #myMap{
   width: 800;
   height: 500;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+#mapid {
+  height: 300px;
+}
+
+#myChart {
+  height: 120px !important;
+  width: 120px !important;
 }

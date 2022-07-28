@@ -41,7 +41,7 @@ function addShip(n, features) {
   let points = iterateOverJSON(features);
   points_20 = just_every(n, points);
 
-  //console.log(points_20);
+  console.log(points_20);
   //var c = [];
   for (i = 0; i < points_20.length; i++) {
     //c.push([points_20[i]["lat"], points_20[i]["lng"]]);
